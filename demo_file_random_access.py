@@ -8,7 +8,7 @@
 """
 import sys
 SOF = 0 # Start of file
-CUR = 1 # Current file eposition
+CUR = 1 # Current file position
 EOF = 2 # End of File
 
 with open(r"f:\labs\projects\Python_Sep_2026\movies.txt", mode="rt") as fh_in:
