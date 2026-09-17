@@ -15,7 +15,7 @@ menu = """
 """
 import sys
 from app import basic # SAFER
-from app.adv import power, mod, sqrt
+from app.adv import power, mod, sqrt # IMPORTS NAMES into __main__.import CAREFUL!
 
 def main():
     while True:
